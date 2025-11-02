@@ -1,0 +1,30 @@
+{
+  "name": "little-engine",
+  "version": "1.0.0",
+  "description": "An app engine classes, that should help you build any type of app.",
+  "keywords": [
+    "engine",
+    "library",
+    "lib"
+  ],
+  "homepage": "https://github.com/paulrodean/little-engine.js#readme",
+  "bugs": {
+    "url": "https://github.com/paulrodean/little-engine.js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulrodean/little-engine.js.git"
+  },
+  "license": "ISC",
+  "author": "Paul RODEAN <paul.rodean@gmail.com>",
+  "type": "module",
+  "main": "little-engine.mjs",
+  "scripts": {
+    "test": "vitest --coverage --watch false ./tests/*.spec.mjs ",
+    "test:watch": "vitest --coverage --watch ./tests/*.spec.mjs"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^4.0.6",
+    "vitest": "^4.0.6"
+  }
+}
