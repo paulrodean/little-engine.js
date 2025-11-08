@@ -1,2 +1,13 @@
 # little-engine.js
-Provides a base to build an app.
+
+## Scope
+The main scope for this library is to provide a generic engine for creating an application.
+
+## Roadmap
+WIP
+
+## License
+MIT License
+
+## Author
+[Paul RODEAN](mailto:paul.rodean@gmail.com)

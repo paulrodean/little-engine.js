@@ -18,10 +18,13 @@
   "license": "ISC",
   "author": "Paul RODEAN <paul.rodean@gmail.com>",
   "type": "module",
-  "main": "little-engine.mjs",
+  "main": "little-engine.js",
+  "exports": {
+    ".": "./little-engine.js"
+  },
   "scripts": {
-    "test": "vitest --coverage --watch false ./tests/*.spec.mjs ",
-    "test:watch": "vitest --coverage --watch ./tests/*.spec.mjs"
+    "test": "vitest --config ./vitest.config.js",
+    "test:watch": "vitest --config ./vitest.config.js --watch"
   },
   "devDependencies": {
     "@vitest/coverage-v8": "^4.0.6",
